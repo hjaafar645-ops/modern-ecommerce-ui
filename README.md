@@ -1,5 +1,8 @@
 # modern-ecommerce-ui
-### ✨ Electro Shop UI – A visual-centric E-commerce project focused on Design & Advertising.🔄 Re-uploaded version with refined layouts.🛠️ Built with HTML5, CSS3, and JS.🚀 Featuring smooth Scroll Animations & Swiper.js for a premium marketing feel.
+### ✨ Electro Shop UI – A visual-centric E-commerce project focused on Design & Advertising.
+• 🔄 Re-uploaded version with refined layouts.
+• 🛠️ Built with HTML5, CSS3, and JS.
+• 🚀 Featuring smooth Scroll Animations & Swiper.js for a premium marketing feel.
 ### {🔄 Status}
 • Version: 2.0 (Re-uploaded & Refined)
 • Focus: UI/UX Excellence & Marketing Aesthetics.
