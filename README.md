@@ -16,11 +16,14 @@
 • 🎨 CSS3 - Advanced Styling & Flexbox/Grid
 • ⚡ JavaScript - Interaction & Animations (ScrollReveal, Swiper.js)
 ### {🖼️ Gallery}
-• Home Page
+### • Home Page
+
 <img width="1847" height="861" alt="home-screen" src="https://github.com/user-attachments/assets/99fac30e-da67-48fe-b851-2b919f7e44ce" />
-• Products Page
+### • Products Page
+
 <img width="1482" height="907" alt="products-screen" src="https://github.com/user-attachments/assets/10c6eda9-3ffd-45ec-9af9-e623e25ec4f1" />
-• About Page
+### • About Page
+
 <img width="1606" height="925" alt="about-screen" src="https://github.com/user-attachments/assets/3fc0f913-c66a-43a0-abf0-892014553c0b" />
 ### 🔗 Live Demo
 https://hjaafar645-ops.github.io/modern-ecommerce-ui/
