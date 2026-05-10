@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/electro.css" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" href="./Images/لقطة الشاشة 2026-01-16 202323.png" type="image/png">
+  <meta name="description"
+    content="Discovre modern smart devices with a clean, responsive design and smooth user experience.">
+  <title> Electro-Zone </title>
+</head>
+
+<body>
+
+  <!-- Start-Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow"> <!-- Start-Navbar -->
+      <div class="container">
+        <a class="navbar-brand logo" href="#"> <i class="fs-2"> <span class="logo-color"> Electro </span> Zone </i> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse principal" id="nav1">
+          <ul class="navbar-nav ms-4 list-navbar ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home" style="color: #fff;"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products"> Products </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#special"> Offers </a>
+            </li>
+            <li class="nav-item me-2"><a class="nav-link icon-btn" href="#"><i class="bi bi-cart3 icon"></i></a>
+            </li>
+          </ul>
+          <form class="off-hidden">
+            <input type="search" class="form-control w-100" placeholder="Search...">
+            <button class="btn btn-outline-primary mx-1"> Search </button>
+          </form>
+          <button class="btn btn-outline-primary btn-menu" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#mainoffcanvas" aria-controls="mainoffcanvas"> Menu </button>
+        </div>
+      </div>
+    </nav> <!-- End-Navber -->
+    <!-- Start-Offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="mainoffcanvas" aria-labelledby="mainoffcanvaslabel"
+      data-bs-scroll="true" data-bs-backdrop="true">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title"> Menu </h5>
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled">
+          <li class="nav-item"> <a class="nav-link" href="#review"> Reviews </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#about"> About </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#contact"> Contact </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#footer"> Footer </a> </li>
+        </ul>
+        <form class="d-flex flex-column off-input">
+          <input type="email" placeholder="Entre your email" class="form-control mb-2">
+          <button class="btn btn-primary off-button"> Subscripe </button>
+        </form>
+        <div class="other-links">
+          <a href="#"> <i class="bi bi-facebook" style="color: rgb(25, 0, 255);"></i> </a>
+          <a href="#"> <i class="bi bi-instagram" style="color: rgb(149, 32, 120);"></i> </a>
+          <a href="#"> <i class="bi bi-twitter-x" style="color: rgb(255, 255, 255);"></i> </a>
+        </div>
+      </div>
+    </div>
+    <!-- End-Offcanvas -->
+  </header>
+  <!-- End-Header -->
+
+  <!-- Start-main-section -->
+  <main>
+    <!-- Start-hero-section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="over-lay"></div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-sm-6 col-lg-6 h-100">
+            <section class="hero-section-left">
+              <h2 class="hero-title"> Everything you need in one smart store </h2>
+              <p class="hero-para">
+                Explore the latest smartphones, tables, and smart devices
+                with unbeatable prices and modern design.
+                Quality, performance, and innovation in one place.
+              </p>
+              <button class="hero-button" type="button"> <a href="#"> Shop Now </a> </button>
+            </section>
+          </div> <!-- div-col -->
+        </div> <!-- div-row -->
+      </div> <!-- div-container -->
+    </section> <!-- Hero-section -->
+    <!-- End-hero-section -->
+
+    <!-- Start-products-section -->
+    <section class="products-section" id="products">
+      <div class="container-fluid">
+        <div class="header-sections">
+          <h3 class="product-title"> Our Products </h3>
+          <span class="line"></span>
+        </div>
+        <div class="product-list">
+          <ul class="list-unstyled">
+            <li> <a href="#mobiles"> Mobile Section <i class="bi bi-phone"></i> </a> </li>
+            <li> <a href="#Laptop"> LapTop Section <i class="bi bi-laptop"></i> </a> </li>
+            <li> <a href="#anotherproducts"> Another Products <i class="bi bi-basket3-fill"></i> </a> </li>
+          </ul>
+        </div>
+
+        <div class="swiper mySwiper py-3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="mobiles">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Apple-iPad-Pro-M5-(2025)-11inch-256GB-WiFi-Black-Tablet-computer-LDLC-1467933849.jpg"
+                    alt="ipad-img" class="img-fluid">
+                  <span class="badge bg-success m-2 px-3 py-2">NEW</span>
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> IPad Pro M5 </h5>
+                    <p class="card-text"> Ultra Retina XDR . 120HZ ..... </p>
+                    <div class="price mb-3">
+                      <span> 1200$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/آبل-هاتف-ذكي-آبل-آيفون-17-برو-ماكس-نيلي-عميق-متجر-نجمة-التقنية--13586373.png"
+                    alt="iphone17-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Apple iPhone 17 Pro Max </h5>
+                    <p class="card-text"> Super Retina XDR OLED (120HZ) ..... </p>
+                    <div class="price mb-3">
+                      <span> 1199$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/تعرف-علي-احدث-الهواتف-لعام-2025-الامكانيات-والمواصفات-ومتوسط-1486849311.jpg"
+                    alt="iphone15-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Apple iPhone 15 Pro Max </h5>
+                    <p class="card-text"> 285 GB ..... </p>
+                    <div class="price mb-3">
+                      <span> 1199$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/سامسونج-جالاكسي-إس-25-ألترا-أحسن-سعر-في-مصر-2025--393256633.jpg" alt="galaxyS25-img"
+                    class="img-fluid">
+                  <span class="badge bg-success m-2 px-3 py-2">NEW</span>
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Samsung Galaxy S25 Ultra </h5>
+                    <p class="card-text"> Snapdragon 8 Elite ..... </p>
+                    <div class="price mb-3">
+                      <span> 1299$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Xiaomi-15-Ultra-Special-Thanks-キャンペーン-Xiaomi-公式(日本)--1448760355.png"
+                    alt="Xiaomi15-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Xiaomi 15 Ultra </h5>
+                    <p class="card-text"> 200 MP Quad Camera ..... </p>
+                    <div class="price mb-3">
+                      <span> 1199$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Asus-Zenfone-12-Ultra-Full-Phone-Specs-Price-and-Comparison-835990444.jpg"
+                    alt="Asus12-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Asus Zenfone 12 Ultra </h5>
+                    <p class="card-text"> Snapdragon 8 Elite ..... </p>
+                    <div class="price mb-3">
+                      <span> 1250$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/vivo-X200-Ultra-Full-Phone-Specs-Price-and-Comparison--1782571816.jpg" alt="Vivo-img"
+                    class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Vivo X200 Ultra </h5>
+                    <p class="card-text"> 6.85" LTPO AMOLED ..... </p>
+                    <div class="price mb-3">
+                      <span> 920$ - 1230$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/HUAWEI-Pura-80-Series-Qatar-Flagship-Camera-Phones-Ooredoo-QA-1850705076.jpg"
+                    alt="Huawei-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Huawei Pura 80 Series </h5>
+                    <p class="card-text"> 6.6" LTPO OLED ..... </p>
+                    <div class="price mb-3">
+                      <span> 735$ - 1300$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Google-Pixel-10-Pro-XL-256GB-5G-–-TechXpress-UG-84951712.png" alt="GooglePixel-img"
+                    class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Goolge Pixel 10 Pro Fold </h5>
+                    <p class="card-text"> Tensor 5G + 48 MP ..... </p>
+                    <div class="price mb-3">
+                      <span> 1799$</span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+          </div> <!-- swiper-wrapper -->
+        </div> <!-- swiper-mySwiper -->
+
+        <!-- Seconde-swiper -->
+
+        <div class="swiper mySwiper2 py-3" id="Laptop">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="mobiles">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Amazoncom-Microsoft-Surface-Laptop-for-Business-(2025)-Windows--1911860224.jpg"
+                    alt="Microsoft-img" class="img-fluid">
+                  <span class="badge bg-success m-2 px-3 py-2">NEW</span>
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Microsoft Surface 7th Gen </h5>
+                    <p class="card-text"> Snapdragon X Elite . 16GB ..... </p>
+                    <div class="price mb-3">
+                      <span> 1000$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Dell-Latitude-5400-Business-Laptop-14inch-Laptop-Computer-Intel-936118286.jpg"
+                    alt="Dell-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Dell XPX 16 </h5>
+                    <p class="card-text"> 16" 4K OLED . Intel Core Ultra 9 ..... </p>
+                    <div class="price mb-3">
+                      <span> 1999$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Lenovo-ThinkPad-X1-Carbon-Gen-12-Business-Laptop-Intel-Core--774340637.png"
+                    alt="Lenovo-img" class="img-fluid">
+                  <span class="badge bg-success m-2 px-3 py-2">NEW</span>
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Lenovo ThinkPad x1 Carbon </h5>
+                    <p class="card-text"> 14" 2.8K OLED . Intel Core Ultra 7 ..... </p>
+                    <div class="price mb-3">
+                      <span> 1599$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/ASUS-ROG-Zephyrus-G16-(2025)-GU605-Gaming-Laptop-ROG-USA-234856187.jpg"
+                    alt="Asus-img" class="img-fluid">
+                  <span class="badge bg-success m-2 px-3 py-2">NEW</span>
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Asus ROG Zephyrus G16 </h5>
+                    <p class="card-text"> Gaming . NVIDIA RTX 5080 ..... </p>
+                    <div class="price mb-3">
+                      <span> 2299$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Hp-EliteBook-1050-G1-i7-U-8Th-H-8GB-RAM-256GB-SSD-4GB-Nvidia-422567360.jpg"
+                    alt="HP-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> HP EliteBook </h5>
+                    <p class="card-text"> Intel Core Ultra X7 ..... </p>
+                    <div class="price mb-3">
+                      <span> 1800$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/ASUS-Zenbook-S-16-(UM5606)-1579529000.jpg" alt="Asus-img" class="img-fluid">
+                  <span class="badge bg-success m-2 px-3 py-2">NEW</span>
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> ASUS ZenBook S16 </h5>
+                    <p class="card-text"> 14" 2.8K OLED . Intel Core Ultra 7 ..... </p>
+                    <div class="price mb-3">
+                      <span> 1850$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Lenovo-ThinkPad-X1-Carbon-Gen-12-Business-Laptop-Intel-Core-972163782.png"
+                    alt="lenovo-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Lenovo ThinkPad Buisness </h5>
+                    <p class="card-text"> Intel® Core™ Ultra ..... </p>
+                    <div class="price mb-3">
+                      <span> 1194$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+
+          </div> <!-- swiper-wrapper -->
+        </div> <!-- swiper-mySwiper -->
+
+        <!-- Third-swiper -->
+
+        <div class="swiper mySwiper3 py-3" id="anotherproducts">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="mobiles">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/camera.png" alt="camera-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Hikvision Security Camera </h5>
+                    <p class="card-text"> 4MP Infrared ..... </p>
+                    <div class="price mb-3">
+                      <span> 110$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/headphone2.png" alt="headphone-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> UBL Tune T110 </h5>
+                    <p class="card-text"> Compact wired in-ear ..... </p>
+                    <div class="price mb-3">
+                      <span> 32$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/headphon.png" alt="headphone-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Philips Headphones </h5>
+                    <p class="card-text"> Comfortable long-wear design ..... </p>
+                    <div class="price mb-3">
+                      <span> 40$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/سماعة-رأس-لاسلكية-P47-بلوتوث-لون-ازرق-قابلة-للطي-تدعم-كارت-ميموري-576409463.png"
+                    alt="p47-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> P47 Wireless </h5>
+                    <p class="card-text"> Clear stereo sound ..... </p>
+                    <div class="price mb-3">
+                      <span> 15$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/microphone .png" alt="microphone-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Microphone </h5>
+                    <p class="card-text"> Clear vocal capture ..... </p>
+                    <div class="price mb-3">
+                      <span> 120$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/كاميرا-صور-حديثة-احترافية-كبيرة-معزولة-على-خلفية-شفافة-بدون-مرآة-449757067.png"
+                    alt="canon-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Canon EOS R50 V </h5>
+                    <p class="card-text"> 24.2 MP APS-C sensor ..... </p>
+                    <div class="price mb-3">
+                      <span> 849$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/router.png" alt="router-img" class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> TP-Link 300Mbps Wireless </h5>
+                    <p class="card-text"> ADSL2+ Modem ..... </p>
+                    <div class="price mb-3">
+                      <span> 40$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <div class="card-img-top">
+                  <img src="Images/Mobile-chargers-and-cables-—-ElSewedy-Shop--292840742.jpg" alt="charger-img"
+                    class="img-fluid">
+                  <div class="card-body" style="background-color: #1a1a1a;">
+                    <h5 class="card-title"> Mobile Charger </h5>
+                    <p class="card-text"> Smart Type-c ..... </p>
+                    <div class="price mb-3">
+                      <span> 15$ </span>
+                    </div>
+                    <a class="btn btn-primary w-100" href="#"> Add to cart <i class="bi bi-cart3 icon-card"></i>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- card -->
+            </div> <!-- swiper-slide -->
+          </div> <!-- swiper-wrapper -->
+        </div> <!-- swiper-mySwiper -->
+      </div> <!-- div-container-fluid -->
+    </section> <!-- products-section -->
+    <!-- End-products-section -->
+
+    <!-- Start-Offer-Section -->
+    <section class="offer" id="special">
+      <div class="container">
+        <div class="header-sections-two">
+          <h3 class="product-title"> Special Offers </h3>
+          <span class="line"></span>
+        </div>
+        <div class="row g-4 top-cards">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="offer-card p-3 text-center shadow-sm">
+              <span class="badge bg-danger sell"> -15% </span>
+              <img src="Images/Apple-iPad-Pro-M5-(2025)-11inch-256GB-WiFi-Black-Tablet-computer-LDLC-1467933849.jpg"
+                alt="ipad" class="img-fluid mb-2">
+              <h5> IPad Pro M5 </h5>
+              <div class="icon-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p> <del> 1200$ </del> <strong> 1020$ </strong> </p>
+              <a class="btn btn-danger w-50" href="#"> Buy Now </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="offer-card p-3 text-center shadow-sm">
+              <span class="badge bg-danger sell"> -15% </span>
+              <img src="Images/تعرف-علي-احدث-الهواتف-لعام-2025-الامكانيات-والمواصفات-ومتوسط-1486849311.jpg" alt="iphone"
+                class="img-fluid mb-2">
+              <h5> Apple iPhone 15 Pro Max </h5>
+              <div class="icon-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p> <del> 1199$ </del> <strong> 1019$ </strong> </p>
+              <a class="btn btn-danger w-50" href="#"> Buy Now </a>
+            </div>
+          </div>
+        </div> <!-- row -->
+
+        <div class="row g-4 bottom-cards">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="offer-card p-3 text-center shadow-sm">
+              <span class="badge bg-danger sell"> -15% </span>
+              <img src="Images/Dell-Latitude-5400-Business-Laptop-14inch-Laptop-Computer-Intel-936118286.jpg"
+                alt="laptop" class="img-fluid mb-2">
+              <h5> Dell XPX 16 </h5>
+              <div class="icon-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p> <del> 1999$ </del> <strong> 1700$ </strong> </p>
+              <a class="btn btn-danger w-50" href="#"> Buy Now </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="offer-card p-3 text-center shadow-sm">
+              <span class="badge bg-danger sell"> -10% </span>
+              <img src="Images/كاميرا-صور-حديثة-احترافية-كبيرة-معزولة-على-خلفية-شفافة-بدون-مرآة-449757067.png"
+                alt="camera" class="img-fluid mb-2">
+              <h5> Canon EOS R50 V </h5>
+              <div class="icon-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p> <del> 849$ </del> <strong> 749$ </strong> </p>
+              <a class="btn btn-danger w-50" href="#"> Buy Now </a>
+            </div>
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section> <!-- offer-section -->
+    <!-- End-Offer-Section -->
+
+    <!-- Start-reviews-section -->
+    <section class="review img-fluid" id="review">
+      <div class="container">
+        <div class="header-sections">
+          <h3 class="product-title"> What Our Customers Say </h3>
+          <span class="line"></span>
+        </div>
+
+        <div class="testimonial-section">
+          <div class="testimonial-card">
+            <i class="bi bi-quote quote"></i>
+            <div class="top-review-card">
+              <h5> John Doe </h5>
+              <img src="Images/team1.jpg" alt="persone" class="img-fluid">
+            </div> <!-- top-review-card -->
+            <p>
+              Excellent service, the product arrived quickly and the quality was better than
+              expected. I will definitely shop here again.
+            </p>
+          </div> <!--testimonial-card  -->
+
+          <div class="testimonial-card active">
+            <i class="bi bi-quote seconde-quote"></i>
+            <div class="top-review-card">
+              <h5> Jack Deep </h5>
+              <img src="Images/team3.jpg" alt="persone" class="img-fluid">
+            </div> <!-- top-review-card -->
+            <p>
+              I took advantage of the discount, and the price was great compared to the market.
+              The whole experience was smoooth and easy.
+            </p>
+          </div> <!--testimonial-card  -->
+
+          <div class="testimonial-card">
+            <i class="bi bi-quote quote"></i>
+            <div class="top-review-card">
+              <h5> Mark John </h5>
+              <img src="Images/team2.jpg" alt="persone" class="img-fluid">
+            </div> <!-- top-review-card -->
+            <p>
+              The website is clean and easy to use, everything matched the photos and description.
+              A great experience.
+            </p>
+          </div> <!--testimonial-card  -->
+        </div> <!-- testimonial-section -->
+      </div> <!-- container -->
+    </section>
+    <!-- End-reviews-section -->
+
+    <!-- Start-about-section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="header-sections">
+          <h3 class="product-title"> About Us </h3>
+          <span class="line"></span>
+        </div>
+
+        <div class="about-content">
+
+          <div class="about-section-left">
+            <img src="Images/شاب-يحمل-هاتف-و-يبحث-Gulf-Picasso-بيكاسو-الخليج-1820484609.jpg" alt="img"
+              class="img-fluid img1">
+            <img src="Images/تصميم-ويب-سايت-كامل-وجاهز-للعمل-لتتفرغ-لخدمة-عملائك-مدونة-شركة-تقنية-21372352.gif"
+              alt="img" class="img-fluid img2">
+            <img src="Images/صورة-شخص-يصور-في-كاميرا-بيكاسو-الخليج-Gulf-Picasso-132455186.jpg" alt="img"
+              class="img-fluid img3">
+            <img src="Images/خلفيات-حسب-تخصصك-تجارة-الكترونية-TikTok--505347016.jpg" alt="img" class="img-fluid img4">
+            <img src="Images/كيف-تصنع-منتج-رقمي-في-سلة-2023-654488224.jpg" alt="img" class="img-fluid img5">
+          </div> <!-- about-section-left -->
+
+          <div class="about-section-right">
+            <p class="about-title"> <i class="bi bi-quote fs-2" style="color: rgb(6, 6, 71);"></i> Smart gadget. Trusted
+              service. Fast delivery <i class="bi bi-quote fs-2" style="color:rgb(6, 6, 71) ;"></i> </p>
+            <p class="about-text">
+              At [ <span style="color:rgb(6, 6, 71) ;"> Electro-Zone </span> ], we provide high-quality
+              smartphones, accessories, and tech solutions to make your life easier.
+              Our missipn is to bring technology closer to you with reliability, speed, and simplicity.
+              Experience a seamless shopping journey with us today. Our team is dedicated to offering reliable
+              products, fast delivery, and exceptional customer service, ensuring a seamless shopping experience.
+              Your satisfaction is our mission, and we are committed to keeping you connected with the best tech
+              available.
+            </p>
+          </div> <!-- about-section-right -->
+
+        </div> <!-- about-content -->
+      </div> <!-- container -->
+    </section> <!-- about -->
+    <!-- End-about-section -->
+
+    <!-- Start-contact-section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="header-sections">
+          <h3 class="product-title"> Contact Us </h3>
+          <span class="line"></span>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-image">
+            <img src="Images/ajheza.png" alt="products" class="img-fluid">
+          </div>
+
+          <div class="contact-input">
+            <h3 class="contact-title"> Get in Touch </h3>
+            <p class="contact-idea"> Have a question or need support?<br> Send us a message and we'll get back to you
+              shortly.
+            </p>
+            <form>
+              <label for="name"> Full Name </label>
+              <input type="text" placeholder="Full Name" id="name">
+
+              <label for="num"> Phone Number </label>
+              <input type="tel" placeholder="+963 xx xxx xxx x" id="num">
+
+              <label for="mail"> Email Address </label>
+              <input type="email" placeholder="Email Address" id="mail">
+
+              <label for="mes"> Your Message </label>
+              <textarea id="mes" rows="5" cols="52" placeholder="Enter your massege"></textarea>
+
+              <button class="btn btn-primary w-50 mt-4"> Send Message </button>
+            </form>
+          </div> <!-- contact-input -->
+        </div> <!-- contact-content -->
+      </div> <!-- container -->
+    </section> <!-- Contact-section -->
+    <!-- End-cotact-section -->
+
+    <!-- Start-footer-section -->
+    <footer class="end" id="footer">
+      <div class="container">
+        <div class="footer-content">
+
+          <div class="left-foot">
+            <img src="Images/logo.png" alt="footer-brand">
+            <p class="foot-desc">
+              Modern digital products for smart shopping experience.
+            </p>
+            <div class="foot-icon">
+              <a href="#" class="whatss"> <i class="bi bi-whatsapp"></i> </a>
+              <a href="#" class="face"> <i class="bi bi-facebook"></i> </a>
+              <a href="#" class="tele"> <i class="bi bi-telegram"></i> </a>
+            </div>
+          </div> <!-- left-foot -->
+
+          <div class="centre-foot">
+            <h4> Quick Links </h4>
+            <ul class="list-unstyled">
+              <li> <a href="#home"> Home </a> </li>
+              <li> <a href="#products"> Products </a> </li>
+              <li> <a href="#special"> Offers </a> </li>
+              <li> <a href="#about"> About </a> </li>
+              <li> <a href="#contact"> Contact Us </a> </li>
+            </ul>
+          </div> <!-- centre-foot -->
+
+          <div class="right-foot">
+            <ul class="list-unstyled">
+              <h4> Contact info </h4>
+              <li> <i class="bi bi-phone"></i> Phone: +963 934 302 658</li>
+              <li> <i class="bi bi-envelope"></i> Email: hjaafar645@gmail.com </li>
+              <li> <i class="bi bi-geo-alt"></i> Address: Syria (Homs) </li>
+            </ul>
+          </div> <!-- right-foot -->
+        </div> <!-- footer-content -->
+        <p class="final-line"> <span> Electro-Zone. </span> All right reseved. | 2026 &copy; Developed by | Jaafar |
+        </p>
+      </div> <!-- container -->
+    </footer> <!-- End -->
+    <!-- End-footer-section -->
+  </main>
+
+  <!-- The-End -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="js/electro.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
