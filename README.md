@@ -25,6 +25,8 @@
 ### • About Page
 
 <img width="1606" height="925" alt="about-screen" src="https://github.com/user-attachments/assets/3fc0f913-c66a-43a0-abf0-892014553c0b" />
+
 ### 🔗 Live Demo
 https://hjaafar645-ops.github.io/modern-ecommerce-ui/
+
 ### 👤 Designed and developed by : Jafar
