@@ -31,4 +31,4 @@
 ### 🔗 Live Demo
 https://hjaafar645-ops.github.io/modern-ecommerce-ui/
 
-### 👤 Designed and developed by : Jafar
+### 👤 Designed and developed by : Jafar Hasan
